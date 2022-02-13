@@ -1,0 +1,41 @@
+.container{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    
+    }
+
+    .container ul{
+        display: flex;
+        list-style: none;
+    }
+
+    .Hero{
+        background-image: url("pexels-tima-miroshnichenko-5380642.jpg"),  linear-gradient(rgba(0, 0, 0, 0.75),   rgba(0, 0, 0, 0.75));
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+
+.intro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -25%);
+    text-align: center;
+    column-rule-color: whitesmoke;
+}
+
+.intro h2{
+    color: white;
+    font-size: 40px;
+    
+}
+.intro p{
+    color: whitesmoke;
+}
+.button{
+    background-color: aqua;
+    opacity: 0.7;
+}
